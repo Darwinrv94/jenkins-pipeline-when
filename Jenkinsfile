@@ -2,8 +2,9 @@ pipeline {
     agent any
 
     environment {
-        WEBSERVER = "Apache"
+        WEBSERVER = "Nginx"
     }
+
     stages {
         stage('Create  directory for the WEB Application')
         {
